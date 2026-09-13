@@ -1,17 +1,16 @@
-# Forensic Evidence Transfer — Vercel Demo
+# Forensic Evidence Portal
 
-A seminar/demo website for preparing a ZIP evidence package and displaying its SHA-256 hash.
+Put your seminar ZIP in this folder and rename it `evidence.zip`.
 
-## Deploy
-1. Install Node.js and Vercel CLI.
-2. Run `npm i -g vercel`.
-3. In this folder run `vercel`.
-4. Follow the prompts to deploy.
+Final folder:
+- index.html
+- style.css
+- evidence.zip
 
-## Important
-The included `/api/upload.js` is deliberately a demo endpoint. It validates the ZIP filename, receives the request, calculates SHA-256, and returns metadata, but it does NOT permanently store or expose the uploaded ZIP.
+Deploy:
+1. Install Vercel CLI: `npm install -g vercel`
+2. Open this folder in PowerShell.
+3. Run `vercel`
+4. Follow the prompts and share the resulting URL.
 
-For an actual lab transfer, use approved object storage or a controlled server and authenticate access. Do not upload real sensitive evidence to a public Vercel deployment.
-
-## VirtualBox
-The VM can download a package only if you add a real, authenticated storage/download backend. Vercel alone is not a direct connection to the host/guest network.
+For an educational seminar, use only files you are authorized to distribute. Do not publish confidential or real forensic evidence.
