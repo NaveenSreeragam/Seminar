@@ -1,0 +1,11 @@
+﻿Case: CASE-07
+Evidence: E01
+Description: Synthetic Research Server
+Image: server.E01
+Source: case07_server.vhdx
+SHA-256: B64811FA1985B27D04CC4930EEE89A1A102F3CB6144D7C759FC2997647EC6F7F
+
+Existing supporting evidence:
+- capture.pcapng
+- auth.log
+- firewall.log
